@@ -1,0 +1,16 @@
+{
+  "name": "vernacular-vibe-coder",
+  "version": "1.0.0",
+  "description": "A multilingual web app generator using AI",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete - static files ready'",
+    "start": "echo 'Starting static server' && python3 -m http.server 3000",
+    "dev": "python3 -m http.server 3000"
+  },
+  "keywords": ["ai", "web-generator", "multilingual", "vernacular"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
