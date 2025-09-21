@@ -4,9 +4,9 @@
   "description": "A multilingual web app generator using AI",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Build complete - static files ready'",
+    "build": "mkdir -p dist && cp index.html dist/ && echo 'Build complete - static files ready in dist/'",
     "start": "echo 'Starting static server' && http-server . -p 3000",
-    "dev": "http-server . -p 3000"
+    "dev": "http-server . -p 3000 -o"
   },
   "keywords": ["ai", "web-generator", "multilingual", "vernacular"],
   "author": "",
