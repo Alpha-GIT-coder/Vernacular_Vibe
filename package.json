@@ -5,8 +5,8 @@
   "main": "index.html",
   "scripts": {
     "build": "echo 'Build complete - static files ready'",
-    "start": "echo 'Starting static server' && python3 -m http.server 3000",
-    "dev": "python3 -m http.server 3000"
+    "start": "echo 'Starting static server' && http-server . -p 3000",
+    "dev": "http-server . -p 3000"
   },
   "keywords": ["ai", "web-generator", "multilingual", "vernacular"],
   "author": "",
